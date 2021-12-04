@@ -1,0 +1,97 @@
+{"book": [
+    {"tag": "100001",
+     "name": ["Mắc biết"],
+     "price": ["20000"],
+     "context": [""]
+    },
+    {"tag": "100002",
+     "name": ["Tony cùng buổi sáng"],
+     "price": ["150000"],
+     "context": [""]
+    },
+    {"tag": "100003",
+     "name": ["Trên đường băng"],
+     "price": ["180000"],
+     "context": [""]
+    },
+    {"tag": "100004",
+     "name": ["Đắc nhân tâm"],
+     "price": ["120000"],
+     "context": [""]
+    },
+    {"tag": "100005",
+        "name": ["Cho tôi một vé về tuổi thơ"],
+        "price": ["120000"],
+        "context": [""]
+    },
+    {"tag": "100006",
+        "name": ["Suối Nguồn"],
+        "price": ["120000"],
+        "context": [""]
+    },
+    {"tag": "100007",
+        "name": ["Đi Tìm Lẽ Sống"],
+        "price": ["120000"],
+        "context": [""]
+    },
+    {"tag": "100008",
+        "name": ["Nguyên tắc nghĩ làm giàu"],
+        "price": ["120000"],
+        "context": [""]
+    },
+    {"tag": "100009",
+        "name": ["Tư duy như kẻ lập dị"],
+        "price": ["120000"],
+        "context": [""]
+    },
+    {"tag": "100010",
+        "name": ["Chiến binh cầu vồng"],
+        "price": ["20000"],
+        "context": [""]
+       },
+       {"tag": "100011",
+        "name": ["Người Giàu Có Nhất Thành Babylon"],
+        "price": ["150000"],
+        "context": [""]
+       },
+       {"tag": "100012",
+        "name": ["Đọc vị bất kỳ ai"],
+        "price": ["180000"],
+        "context": [""]
+       },
+       {"tag": "100013",
+        "name": ["Bắt trẻ đồng xanh"],
+        "price": ["120000"],
+        "context": [""]
+       },
+       {"tag": "100014",
+           "name": ["Phi lý trí"],
+           "price": ["120000"],
+           "context": [""]
+       },
+       {"tag": "100015",
+           "name": ["Ông già và biển cả"],
+           "price": ["120000"],
+           "context": [""]
+       },
+       {"tag": "100016",
+           "name": ["Ở quán cà phê của tuổi trẻ lạc lối"],
+           "price": ["120000"],
+           "context": [""]
+       },
+       {"tag": "100017",
+           "name": ["Thế giới phẳng"],
+           "price": ["120000"],
+           "context": [""]
+       },
+       {"tag": "100018",
+           "name": ["Hai số phận"],
+           "price": ["120000"],
+           "context": [""]
+       }
+
+
+]
+}
+
+

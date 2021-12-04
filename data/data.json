@@ -1,0 +1,325 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can provide you with bookstore information, guide you, and help you order books and solve problems with our bookstore products."],
+     "context": [""]
+    },
+    {"tag": "book_search",
+     "patterns": ["Find me a book", "Find book", "List of book nearby", "Locate book", "Search book" ],
+     "responses": ["Please provide book name"],
+     "context": ["search_book_by_name"]
+    },
+    {"tag": "book_search",
+     "patterns": ["Lookup for book", "Searching for book to transfer patient", "I want to search book data", "book lookup for patient", "Looking up book details" ],
+     "responses": ["Please provide book name or location"],
+     "context": ["search_book_by_params"]
+    },
+    {"tag": "search_book_by_params",
+     "patterns": [],
+     "responses": ["Please provide book type"],
+     "context": ["search_book_by_type"]
+    },
+    {"tag": "search_book_by_type",
+     "patterns": [],
+     "responses": ["Loading book details"],
+     "context": [""]
+    },
+    {"tag": "search_book_by_name",
+    "patterns": ["Go Tell the Bees That I Am Gone"],
+    "responses": ["This is your book: 10$"],
+    "context": [""]
+    },
+    {"tag": "search_book_by_name",
+      "patterns": ["Milk and Honey"],
+      "responses": ["This is your book: 10$"],
+      "context": [""]
+      },
+      {"tag": "search_book_by_name",
+        "patterns": ["The Real Anthony Fauci"],
+        "responses": ["This is your book: 10$"],
+        "context": [""]
+        },
+        {"tag": "search_book_by_name",
+          "patterns": ["Big Shot Diary of a Wimpy Kid Book 16"],
+          "responses": ["This is your book: 10$"],
+          "context": [""]
+          },
+
+{
+  "tag": "greeting",
+  "patterns": [
+    "Hi",
+    "Hey",
+    "How are you?",
+    "Is anyone there?",
+    "Hello",
+    "Greetings and Salutations",
+    "Good day"
+  ],
+  "responses": [
+    "Hey :-) I'm a chat bot about Bestsellered book of this book and plants, and global warming!",
+    "Hello, thanks for visiting. I'm a chatbot about Bestsellered book of this book and plants, and global warming!",
+    "Hi there, ask me about Bestsellered book of this book and plants, and global warming!",
+    "Hi there, how can I help you to learn more about Bestsellered book of this book and plants, and global warming!"
+
+  ]
+},
+{
+  "tag": "goodbye",
+  "patterns": [
+    "Bye",
+    "See you later",
+    "Goodbye"
+  ],
+  "responses": [
+    "See you later, thanks for visiting",
+    "Have a nice day",
+    "Bye! Come back again soon.",
+    "Hope to see you soon"
+  ]
+},
+{
+  "tag": "thanks",
+  "patterns": [
+    "Thanks",
+    "Thank you",
+    "That's helpful",
+    "Thanks a lot!"
+  ],
+  "responses": [
+    "Happy to help!",
+    "Any time!",
+    "My pleasure!",
+"You're welcome!"
+  ]
+},
+{
+  "tag": "whatIsAnBestselleredbook",
+  "patterns": [
+    "What is your best-selling book??",
+    "What are best-selling books?",
+    "What does it mean for a book to be Best sellered?"
+  ],
+  "responses": [
+    "Mat Biec, The book is about the best love stories of Nguyen Anh! It coast 10$",
+    "Mat Biec, The book is about the best love stories of Nguyen Anh! It coast 10$"
+  ]
+},
+{
+  "tag": "whatthis bookAreBestsellered",
+  "patterns": [
+    "Which this book are Bestsellered?",
+    "What are some Bestsellered this book?",
+    "What are some Bestsellered this book names?"
+  ],
+  "responses": [
+    "Mat Biec, The book is about the best love stories of Nguyen Anh! It coast 10$"
+  ]
+},
+{
+  "tag": "whyBestsellered",
+  "patterns": [
+    "Why is it selling well?",
+    "How do this book become Bestsellered?",
+"Why are Books Bestsellered?"
+  ],
+  "responses": [
+    "There are a number of reasons this book may go extinct or become Bestsellered. Because it is humane, highly artistic and beautiful love stories suitable for teenagers","Because it has good content"
+  ]
+},
+{"tag": "lời chào",
+    "patterns": ["Xin chào", "Bạn khỏe không", "Có ai ở đó không?", "Này", "Hola", "Xin chào", "Chúc một ngày tốt lành"],
+    "response": ["Xin chào, cảm ơn bạn đã đặt câu hỏi", "Rất vui được gặp lại", "Xin chào, tôi có thể giúp gì cho bạn?"],
+    "context": [""]
+   },
+   {"tag": "tạm biệt",
+    "patterns": ["Bye", "Hẹn gặp lại", "Tạm biệt", "Rất vui được trò chuyện với bạn, tạm biệt", "Hẹn lần sau"],
+    "response": ["Hẹn gặp lại!", "Chúc một ngày tốt lành", "Tạm biệt! Quay lại sớm nhé."],
+    "context": [""]
+   },
+   {"tag": "cảm ơn",
+    "patterns": ["Cảm ơn", "Cảm ơn", "Thật hữu ích", "Tuyệt vời, cảm ơn", "Cảm ơn vì đã giúp tôi"],
+    "responses": ["Rất vui được giúp đỡ!", "Bất cứ lúc nào!", "Rất hân hạnh"],
+    "context": [""]
+   },
+   {"tag": "không hiểu",
+    "patterns": [],
+    "responses": ["Xin lỗi, tôi không thể hiểu được bạn", "Vui lòng cung cấp thêm thông tin cho tôi", "Tôi không chắc tôi hiểu"],
+    "context": [""]
+   },
+   {"tag": "lựa chọn",
+    "patterns": ["Bạn có thể giúp tôi không?", "Bạn có thể làm gì?"],
+    "responses": ["Tôi có thể hướng dẫn bạn mua sách hoặc tìm sách cho bạn", "Cung cấp hỗ trợ cho bạn về thông tin cửa hàng và tìm sách cho bạn"],
+    "context": [""]
+   },
+   {"tag": "tìm sách từ params",
+    "patterns": [],
+    "responses": ["Vui lòng cung cấp loại sách"],
+    "context": ["search_book_by_type"]
+   },
+   {"tag": "tìm sách từ nhập",
+    "patterns": [],
+    "responses": ["Đang tải chi tiết sách"],
+    "context": [""]
+   },
+   {"tag": "Mắt Biếc",
+   "patterns": ["Mắt Biếc"],
+   "responses": ["Đây là sách của bạn: 200k"],
+   "context": [""]
+   },
+   {"tag": "Nhà giả kim",
+    "patterns": ["Nhà giả kim"],
+    "responses": ["Đây là sách của bạn: 300k"],
+    "context": [""]
+    },
+    {"tag": "Buổi sáng cùng Tony",
+      "patterns": ["Buổi sáng cùng Tony"],
+      "responses": ["Đây là sách của bạn: 150k $"],
+      "context": [""]
+      },
+{
+ "tag": "tạm biệt",
+ "patterns": [
+   "Từ biệt",
+   "Hẹn gặp lại",
+   "Tạm biệt"
+ ],
+ "responses": [
+   "Hẹn gặp lại, cảm ơn đã ghé thăm",
+   "Chúc một ngày tốt lành",
+   "Tạm biệt! Quay lại sớm thôi.",
+   "Mong sớm được gặp lại bạn"
+ ]
+},
+{
+ "tag": "cảm ơn",
+ "patterns": [
+   "Cảm ơn",
+   "Cảm ơn bạn",
+   "Thật hữu ích",
+   "Cảm ơn rất nhiều!"
+ ],
+ "responses": [
+   "Vui vẻ giúp đỡ!",
+   "Bất cứ lúc nào!",
+   "Hân hạnh!",
+"Không có gì!"
+ ]
+},
+{
+ "tag": "sách gì bán chạy nhất",
+ "patterns": [
+   "Sách bán chạy là gì?",
+   "Cuốn sách bán chạy là gì?",
+   "Một cuốn sách được bán chạy nghĩa là gì?"
+ ],
+ "responses": [
+   "Mat Biec, Cuốn sách viết về những câu chuyện tình yêu hay nhất của Nguyễn Ánh! giá của nó 200k",
+   "Mat Biec, Cuốn sách kể về những câu chuyện tình yêu hay nhất của Nguyễn Ánh! giá của nó 200k"
+ ]
+},
+{
+ "tag": "tại sao bán chạy",
+ "patterns": [
+   "Tại sao cuốn sách này trở thành bán chạy?"],
+   "responses": [
+       "Bởi vì nội dung của nó hay lãng mạng phù hợp với các bạn trẻ"
+     ]
+
+},
+{
+  "tag": "địa chỉ",
+ "patterns": [
+   "Địa chỉ nhà sách của bạn ở chỗ nào?","Địa chỉ nhà sách của bạn ở đâu vậy?","Cho mình hỏi địa chỉ nhà sách của bạn được không?"],
+   "responses": [
+       "Địa chỉ nhà của mình ở 94 Nguyễn Thị Minh Khai bạn nhé!"
+     ]
+},
+{
+  "tag": "Danh mục sách",
+ "patterns": [
+   "Bạn có các loại sách nào","Nhà sách bạn có các loại sách nào","Cho mình thông tin các loại sách của cửa hàng bạn được không?"],
+   "responses": [
+       "Nhà sách mình có đa dạng loại sách, bạn có thể tìm kiếm: Ngoại ngữ, Tiểu thuyết, Truyện, Văn học, Tình cảm..."
+     ]
+},
+{
+  "tag": "Tác giả",
+ "patterns": [
+   "Bạn có các loại sách của tác giả nào","Nhà sách bạn có các cuốn sách của tác giả nào","Cho mình thông tin tác giả các loại sách của cửa hàng bạn được không?"],
+   "responses": [
+       "Nhà sách mình có đa dạng loại sách của nhiều tác giả nối tiếng khác nhau, bạn có thể tìm kiếm: Nguyễn Nhật Ánh, Kim Lân, John White, Tony..."
+     ]
+},
+{
+  "tag": "Tìm kiếm sách",
+ "patterns": [
+   "Bạn có thể giúp mình tim sách được không?","Mình muốn tìm sách bạn giúp mình được không","Bạn giúp mình tra cứu sách nhé?"],
+   "responses": [
+       "Vâng rất hân hạnh! Bạn vui lòng gõ [tên sách] nếu như muốn tìm sách, [tác giả] nếu như muốn tìm theo tác gia, [Thể loại] nếu như tìm theo thể loại! "
+     ]
+},
+{
+  "tag": "Nguyễn Nhật Ánh",
+ "patterns": [
+   "Sách của tác giả Nguyễn Nhật Ánh"],
+   "responses": [
+       "Mắt Biếc","Cho Tôi Xin Một Vé Đi Tuổi Thơ","Cô Gái Đến Từ Hôm Qua","Tôi Thấy Hoa Vàng Trên Cỏ Xanh","Con Chó Nhỏ Mang Giỏ Hoa Hồng"
+     ]
+},
+{
+  "tag": "Thể loại tiểu thuyết",
+ "patterns": [
+   "Tiểu thuyết"],
+   "responses": [
+       "Mình đề xuất vài cuốn tiểu thuyết hay nhất: Không gia đình của tác giả Hector Matlot, Ông già và biển cả của Ernest Hemingway, Tội ác và trừng phạt của  Fyodor Mikhailovich Dostoevsky, Serlock Homles của Authur Conan Doyle"
+     ]
+},
+{
+  "tag": "Hướng dẫn thanh toán",
+ "patterns": [
+   "Tôi muốn thanh toán","Bạn có thể hướng dẫn cho tôi thanh toán được không","Tôi có thể thanh toán bằng cách nào"],
+   "responses": [
+       "Bạn có thể thanh toán khi nhận hàng, hoặc chuyển khoảng cho qua số tài khoản 4236584594896 Ngân hàng VietinBank"
+     ]
+},
+{
+  "tag": "Mua sách",
+ "patterns": [
+   "Tôi có thể mua sách bằng cách nào","Bạn có thể hướng dẫn cho tôi mua sách được không","Tôi có thể đặt mua sách thông qua bạn được không"],
+   "responses": [
+       "Vâng bạn có thể đặt mua trực tiếp trên trang web hoặc tại tin nhắn này! Nếu mua tại đây bạn vui lòng gõ mã sách để xác nhận mua, VD: 100001."
+     ]
+},
+{
+  "tag": "Phản hồi sản phẩm",
+ "patterns": [
+   "Sản phẩm của tôi bị lỗi, bạn giúp mình đổi được không?","Tôi có đặt cuốn sách ABC mà nhà sách giao cho mình sách XYZ. Bạn giúp mình đổi được không","Shop giao thiếu cho mình cuốn sách này"],
+   "responses": [
+       "Xin chào bạn! Nhà sách cảm ơn bạn đã phản hồi lại! Bạn vui lòng gõ theo cú pháp [DoiSanPham + Thông tin sách và địa chỉ của bạn] để nhà sách giải quyết sớm nhất cho bạn nhé! Thông tin đén bạn"
+     ]
+}
+]
+}
+
+
